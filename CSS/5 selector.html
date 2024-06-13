@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+    <style>
+        *{
+            text-align: justify;
+            color: red;
+        }
+        #heading{
+            text-align: center;
+            background-color: aqua;
+            color:blue;
+            border: 2px solid black;
+            border-radius: 45px;
+
+        }
+        #discription{
+            background-color: burlywood;
+            color: brown; 
+        }
+        ol{
+            list-style-type: disc;
+            background-color:purple;
+            color: blue;
+        }
+        ul{
+            list-style-type: square;
+            background-color: darkorange;
+            color: brown;
+        }
+        #hello{
+            color: purple;
+            background-color: azure;
+        }
+        #hi{
+            color:yellow;
+            background-color: burlywood;
+        }
+        .never{
+            background-color: cadetblue;
+            color: green;
+        }
+
+        p{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1 id=heading>Selector and it's types</h1>
+    <p id="discription">So selector's can be used to select a particular tag ,or a whole div as per the scenario.</p>
+    <ol>
+        <li>Types of Selector</li>
+        <br>
+        <ul>
+            <li>univeral selector(* is used to call it in css)</li>
+            <li>id selector(# is used to call it in CSS.) </li>
+            <li>class Selector(. is used to call it in CSS.)</li>
+            <li>element selector( it can be called directly in style. )</li>
+            <br>
+        </ul>
+    </ol>
+    <p id="hello">Selector is the most important topic in html as we will be using these selector almost every where for calling a particular portion of styling .</p>
+    <p id="hi">here i am using id selector which can be assigned to any other element.</p>
+    <p class="never">here i am using class selector which was brought to avoid multiple use of id's .</p>
+    <p>like for this paragraph i am using element selector which means what ever style i assign to this element , this element will  have all that i am assigning. </p>
+
+</body>
+</html>
